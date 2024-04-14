@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Employee</title>
+</head>
+<body>
+    <h1>Employee Details</h1>
+    <table border="1">
+        <tr>
+            <th>Employee ID</th>
+            <td>{{ employee[0] }}</td>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <td>{{ employee[1] }}</td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td>{{ employee[2] }}</td>
+        </tr>
+        <tr>
+            <th>Department ID</th>
+            <td>{{ employee[3] }}</td>
+        </tr>
+        <tr>
+            <th>Salary</th>
+            <td>{{ employee[4] }}</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>{{ employee[5] }}</td>
+        </tr>
+    </table>
+    <br>
+    <a href="/">Back to Employee List</a>
+</body>
+</html>

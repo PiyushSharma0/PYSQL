@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Employee</title>
+</head>
+<body>
+    <h1>Update Employee</h1>
+    <form method="POST">
+        <label>First Name:</label>
+        <input type="text" name="first_name" value="{{ employee[1] }}"><br>
+        <label>Last Name:</label>
+        <input type="text" name="last_name" value="{{ employee[2] }}"><br>
+        <label>Department ID:</label>
+        <input type="number" name="department_id" value="{{ employee[3] }}"><br>
+        <label>Salary:</label>
+        <input type="number" step="0.01" name="salary" value="{{ employee[4] }}"><br>
+        <label>Email:</label>
+        <input type="email" name="email" value="{{ employee[5] }}"><br>
+        <input type="submit" value="Update">
+    </form>
+    <br>
+    <a href="/">Back to Employee List</a>
+</body>
+</html>
